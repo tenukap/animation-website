@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>in page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="iframepay">
+    <!-- headings-->
+    <h1 class="lefthead">Total</h1>
+    <h3 class="righthead">Cash or Credit</h3>
+    <div id="showtotals">
+      <p class="parapayment01">subtotal : 10.99</p>
+      <p class="parapayment01">shipping : 2.00</p>
+      <p class="parapayment01">total : 12.99</p>
+    </div>
+    <!-- headings end-->
+
+    <!-- label starts-->
+    <label for="location" id="loc01">location</label><br />
+    <input type="text" id="loc02" name="location" /><br />
+    <label for="job" id="job01">job</label><br />
+    <input type="text" id="job02" name="job" /><br />
+    <label for="email" id="email01"> email</label><br />
+    <input type="email" id="email02" name="email" /><br />
+    <label for="phone" id="phone01"> phone</label><br />
+    <input type="text" id="phone02" name="phone" /><br />
+    <!-- label ends -->
+
+    <!-- image of card logos -->
+    <img src="credit cards.jpg" id="creditcardimg" />cc
+    <!-- image ends-->
+
+    <!-- name and card details-->
+    <label for="name" id="nam01">name</label><br />
+    <input type="text" id="nam02" />
+
+    <h3 id="cardhead">card infomation</h3>
+    <input type="text" value="1234 5678 90" id="cardno" />
+    <input type="text" id="carddate" />
+    <input type="text" id="cardexpire" />
+    <!--name and card detail ends-->
+
+    <!-- pay button-->
+    <input type="button" id="pay" value="Pay" />
+  </body>
+</html>

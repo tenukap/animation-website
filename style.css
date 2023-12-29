@@ -1,0 +1,382 @@
+/*-----------------------------------*/
+/* main page (login)*/
+header {
+    font-family: sans-serif;
+    color: #D8D9DA;
+    text-align: center;
+}
+
+.para {
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.para:hover {
+    color: white;
+}
+
+#log {
+    font-size: x-large;
+    transition-property: all;
+    transition-duration: 1.0s;
+}
+
+#log:hover {
+    cursor: pointer;
+    color: #D8D9DA;
+    font-size: 2.5em;
+}
+
+/*-----------------------------------*/
+/* text box to enter login username */
+#logintext {
+    padding: 5px;
+    border: #116A7B;
+    width: 20%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.container {
+    text-align: center;
+}
+
+#text {
+    font-family: sans-serif;
+    color: #D8D9DA;
+}
+
+/*-----------------------------------*/
+/*links*/
+nav a {
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: #CDC2AE;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/*-----------------------------------*/
+/* button custom */
+#submit{
+    width: 45px;
+    height: 40px;
+    border-radius: 20px;
+    border-color:#96B6C5 ;
+
+}
+
+#nextbutton {
+    width: 45px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #96B6C5;
+}
+/*-----------------------------------*/
+/* home page */
+#lighttitle {
+    font-family: sans-serif;
+    color:#5C5470;
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  
+  #lighttitle:hover {
+    cursor: pointer;
+    color: #352F44;
+    font-size: 2em;
+  }
+  
+  .colorchange {
+    font-family: sans-serif;
+    color: #5C5470;
+  }
+  
+  #circle1{
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  
+  #circle1:hover {
+    fill: #FAF0E6;
+    r: 40;
+  }
+  
+  #circle2{
+    transition-property:all;
+    transition-duration :1s;  
+  }
+  
+  #circle2:hover{
+    fill:#352F44;
+    r: 140;
+  }
+
+.homelink{
+    color: #352F44;
+}
+
+.homelink:hover{
+    color: white;
+}
+  /*-----------------------------------*/
+  /* contacts page */
+#contacttopic{
+  transition-property: all;
+  transition-duration: 1s;
+  color: #C08261;
+  font-family: sans-serif;
+}
+
+#contacttopic:hover{
+  cursor: pointer;
+  color: #9A3B3B;
+  font-size: 2.5em; 
+}
+
+#contactdecr{
+  font-family: sans-serif;
+  color: #C08261;
+}
+
+.contactlink{
+  color:#9A3B3B;
+}
+/*-----------------------------------*/
+/* contacts section part */
+
+p{
+  color: #9A3B3B;
+}
+/* iframe part*/
+#callframe{
+  background-color: white;
+}
+
+/*replace iframe through heading*/
+#reply{
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+/* ring animation */
+#phone{
+  width: 350px;
+  height: 250px;
+  display: none;
+  padding-left: 447px;
+}
+/*-----------------------------------*/
+/* explore page*/
+#explore_head01{
+  font-family: sans-serif;
+  color:#79AC78 ;
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+#explore_head01:hover{
+  cursor: pointer;
+  font-size: 2.5em;
+  color:#618264 ;
+}
+
+#explore_head02{
+  color: #79AC78;
+  font-family: sans-serif;
+}
+
+.detailhead{
+  font-family: sans-serif;
+  color:#79AC78;
+  padding-left: 30px;
+}
+
+.detailpara{
+  color:#618264;
+  font-family:sans-serif;
+  padding-left: 50px;
+  padding-right: 465px;
+}
+
+.video{
+  padding-left: 50px;
+}
+
+/*-----------------------------------*/
+/* animation test page*/
+#animationhead{
+  font-family: sans-serif;
+  color: #EEE0C9;
+}
+
+@keyframes example{
+  0%{background-color: grey; left:0px;top: 0px;}
+  30%{background-color: #352F44; left: 600px; top: 0px;}
+  50%{background-color: #96B6C5; left:600px; top:70px;}
+  100%{background-color: #EEE0C9;left:-200px;top: 70px;}
+}
+
+#box{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: darkolivegreen;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.detailpara{
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.video{
+  width:500px ;
+  height:300px ;
+}
+
+/*-----------------------------------*/
+/* payment page */
+#paybody{
+  background-color: #F5EFE7;
+}
+#payhead{
+  font-family: monospace;
+  color:#9BABB8 ;
+  margin-left: 410px;
+  font-size:30px;
+}
+/*-----------------------------------*/
+/* iframepaymentpage */
+#iframe{
+  margin-top: 30px;
+  margin-left: 200px;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  min-height: 500px;
+}
+#iframepay{
+  background-color: white;
+  font-family: monospace;
+}
+
+/* heading and paras */
+.lefthead{
+  margin-left: 10px;
+}
+.righthead{
+  margin-top: -50px;
+  margin-left: 500px;
+}
+
+#showtotals{
+  background-color:#F5EFE7 ;
+  width: 200px;
+  height: 130px;
+  margin-left: 500px;
+}
+
+.parapayment01{
+  padding-top: 10px;
+}
+
+#loc01{
+  position:absolute;
+  top: 65px;
+}
+#loc02{
+  width: 175px;
+  position:absolute;
+  top: 85px;
+}
+#job01{
+  position:absolute;
+  top: 110px;
+}
+#job02{
+  width: 175px;
+  position:absolute;
+  top: 125px;
+}
+#email01{
+  position:absolute;
+  top: 155px;
+}
+#email02{
+  width: 175px;
+  position: absolute;
+  top: 170px;
+}
+#phone01{
+  position:absolute;
+  top: 200px;
+}
+#phone02{
+  width: 175px;
+  position: absolute;
+  top: 220px;
+}
+
+
+#creditcardimg{
+  width:105px;
+  height: 20px;
+  position: absolute;
+  top: 190px;
+  left: 500px;
+}
+/* name */
+#nam01{
+  position: absolute;
+  left: 500px;
+  top: 233px;
+}
+#nam02{
+  width: 162px;
+  position: absolute;
+  top: 251px;
+  left: 500px;
+}
+
+#cardhead{
+  position: absolute;
+  top: 199px;
+  left: 500px;
+}
+
+#cardno{
+  position: absolute;
+  top: 280px;
+  left:500px;
+  width: 162px;
+}
+
+#carddate{
+  position: absolute;
+  top: 300px;
+  left:500px;
+  width: 74px;
+}
+
+#cardexpire{
+  position: absolute;
+  top: 300px;
+  left:582px;
+  width: 80px;
+}
+/* pay button */
+#pay{
+  width: 50px;
+  background-color: black;
+  color: white;
+  font-family:monospace;
+  font-size: 20px;
+  position:absolute;
+  top: 400px;
+  left: 350px;
+}
